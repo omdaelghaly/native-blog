@@ -1,0 +1,38 @@
+.aa{       
+    display: block;
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size:10px; 
+ }
+
+
+.commentContainer {
+  /* max-width: 400px; */
+}
+
+ .commentText {
+  overflow: hidden;
+  max-height: 190px; 
+  transition: max-height 0.5s ease;
+  text-overflow: ellipsis;
+
+}
+
+.show-more {
+  max-height: none !important;
+}
+
+.read-more-c {
+  display: block;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 2px 2px;
+  cursor: pointer;
+}
+
+.read-more-c:hover {
+  background-color: #0056b3;
+}
